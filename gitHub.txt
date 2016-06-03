@@ -1,0 +1,37 @@
+	git config --global user.name "rickyolery" ---< pass: lv....
+	git config --global user.email "rickyolery@gmail.com"
+
+creo mi repo en la consola
+	git init nombreRepoisitorio
+
+Creo un archivo README con la info del repo, una breve descripcion
+	nano README ...
+
+Creo un archivo de prueba
+	touch test.php
+
+Los agrego al repositorio 
+	git add README
+	git add test.php
+
+
+Hago un Commit de los cambios
+	git commit -m "mensaje"
+
+Creo el repositorio en github.com
+Una vez generado entro en el repositorio y en Quick setup — if you’ve done this kind of thing before
+y agrego el repo con 
+	git remote add origin https://github.com/NoName-IT/clinica.git
+
+
+Agrego los archivos y paso todo a github.com 
+	git push origin master
+
+Completo el login con username y password.
+y ya tengo mi branch generado y actualizado en la web.
+
+
+Ahora con  SublimeTexx agrego todas las carpetas y archivos.
+
+
+git remote add origin https://rickyolery:lvdlmv.1983@github.com/rickyolery/inventario.git
